@@ -1,43 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
-*{
-    font-family: 'Poppins',sans-serif;
-}
 body{
     font-family: 'Poppins', sans-serif;
 }
 
 
 /* Text */
-a{
+body a{
     font-size: 14px;
     font-weight: 500;
 }
-h2{
+body h2{
     font-size: 36px;
 }
-p{
+body p{
     color: #897676;
     font-size: 16px;
 }
-h3{
+body h3{
     font-size: 24px;
+    line-height: 36px;
 }
-h4{
+body h4{
     font-size: 18px;
+    line-height: 27px;
 }
-h5{
+body h5{
     font-size: 16px;
+    line-height: 27px;
 }
-hr{
+body hr{
     width: 75.5px;
-    border: 4px solid #000000;
+    border: 2px solid #000000;
 }
 
-/* Layout css */
+@media only screen and (max-width: 400px){
+    body h2{
+        font-size: 28px;
+    }
+    body h3{
+        font-size: 22px;
+    }
+    body h4{
+        font-size: 18px;
+    }
+    body h5{
+        font-size: 14px;
+    }
+    body p{
+        color: #897676;
+        font-size: 14px;
+    }
+}
+
+
+
+
+/* Utilities css */
 .section-card{
     border-radius: 18px;
     box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+    background-color: #FFFFFF;
+    
+}
+section{
+    margin-top: 100px;
 }
 
 /* NAVBAR */
@@ -50,10 +77,12 @@ hr{
     width: 62px;
     height: 46px;
 }
-
-section{
-    margin-top: 100px;
+.nav-costum{
+    color: #2742CA;
+    padding: 8px;
 }
+
+/* =============================== INDEX ========================================= */
 
 /* Jumbotron */
 .jumbotron{
@@ -88,7 +117,7 @@ section{
     background-color: #2742CA;
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
  .section-2 h4{
      color: #FFFFFF;
@@ -238,6 +267,94 @@ section{
     .company-footer{
         margin-left: 20px
     }
+}
+
+@media only screen and (max-width: 390px){
+    .jumbotron h1{
+        font-size: 36px;
+        margin-top: 180px
+    }
+     .jumbotron h3{
+         font-size: 20px;
+     }
+    .section-1 img{
+        width: 290px;
+        margin-top: -30px;
+    }
+
+     .section-3 .section-card{
+        width: 290px;
+    }
+
+    .section-4 .section-card{
+        width: 290px;
+    }
+    .footer h3{
+        font-size: 18px;
+    }
+}
 
 
+
+/* ============================ ABOUT ================================== */
+
+/* About Company */
+.about-company{
+    margin-top: 140px;
+}
+ .about-company img{
+    width: 200px;
+ }
+ .about-company h5{
+     font-weight: 400;
+     color: #897676;
+ }
+
+/* Founder Company */
+.founder-company{
+    background-color: #2742CA;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+ .founder-company img{
+    width: 280px;
+ }
+ .founder-company h3{
+     font-weight: 400;
+ }
+
+ /* VISI MISI */
+
+ .visi-misi{
+     background-color: #F5F4F4;
+     padding-top: 100px;
+     padding-bottom: 100px;
+     margin-top: 0px;
+ }
+  .visi-misi h4{
+      font-weight: 400;
+  }
+
+/* Our Team */
+.our-team{
+    padding-bottom: 100px;
+}
+.our-team .content{
+    margin-top: 45px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px){
+
+    /* About Company */
+
+    .about-company .content{
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 568px){
+    .founder-company img{
+        width: 280px;
+    }
 }
