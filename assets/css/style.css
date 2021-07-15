@@ -24,15 +24,15 @@ body h3{
 body h4{
     font-size: 18px;
     line-height: 27px;
+    
 }
 body h5{
     font-size: 16px;
     line-height: 27px;
+    font-weight: normal;
 }
-body hr{
-    width: 75.5px;
-    border: 2px solid #000000;
-}
+
+
 
 @media only screen and (max-width: 400px){
     body h2{
@@ -357,4 +357,33 @@ section{
     .founder-company img{
         width: 280px;
     }
+}
+
+/* ================================ CONTACT US ==================================== */
+
+.about-company hr{
+    border: 1px solid #DAD9D9;
+}
+
+.maps-location{
+    height: 500px;
+    background-image: url(/assets/img/maps.png);
+    background-size: cover;
+}
+
+.btn-2{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 14px 32px;
+    background-color: #2742CA;
+    border: none;
+    color: #FFFFFF;
+}
+
+.contact-company .content{
+    margin-top: 40px;
+}
+
+.information{
+    padding-bottom: 100px;
 }
