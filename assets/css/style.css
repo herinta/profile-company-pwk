@@ -39,6 +39,8 @@ body h5{
 body .line{
     border: 2px solid #000000;
     width: 75.5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -427,23 +429,20 @@ section{
 /* ======================== PORTOFOLIO ==================== */
 
 .portofolio-company img{
-    margin-top: 40px;
+    
     width: 100%;
 }
 .portofolio-company .content{
     position: relative;
-    width: 50%;
+    margin-top: 40px;
+    
   }
 
-.img-porto{
-    display: block;
-    width: 100%;
-    height: auto;
-  }
+
 .overlay {
     position: absolute;
-    width: 100%;
-    top: 0;
+    width: 92.2%;
+    top: 68%;
     height: 30%;
     opacity: 0;
     transition: .5s ease;
@@ -465,3 +464,46 @@ section{
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+  .img-hover-zoom {
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.img-hover-zoom img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.img-hover-zoom:hover img {
+    transform: scale(1.5);
+}
+
+
+
+
+/* ==================== Galley ============= */
+
+.main .carousel-item {
+    height: 620px;
+}
+
+.company-picture h2{
+    margin-top: 60px;
+}
+.company-picture img{
+    width: 100%;
+}
+.gallery-project .pictures{
+    margin-top: 50px;
+}
+.gallery-project img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px){
+    .main .carousel-item {
+        height: auto;
+        width: 100%;
+    }
+}
