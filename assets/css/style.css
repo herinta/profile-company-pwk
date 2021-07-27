@@ -72,6 +72,8 @@ body .line{
     border-radius: 18px;
     box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
     background-color: #FFFFFF;
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
     
 }
 section{
@@ -120,6 +122,13 @@ section{
       border-radius: 32px;
       padding: 14px 30px;
       margin-top: 20px;
+      font-weight: 500;
+  }
+  .section-1 .btn-1:hover{
+      background-color: #FFFFFF;
+      border: 1px solid #2742CA;
+      color: #2742CA;
+      font-weight: 500;
   }
 
   /* Sectinon 2 */
@@ -148,6 +157,12 @@ section{
      height: 330px;
      padding: 50px 20px 50px 20px;
  }
+ 
+
+.section-card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
  .section-3 h4{
      margin-top: 30px;
  }
@@ -361,7 +376,7 @@ section{
  }
 
  /* VISI MISI */
-
+        
  .visi-misi{
      background-color: #F5F4F4;
      padding-top: 100px;
@@ -379,7 +394,7 @@ section{
 .our-team .content{
     margin-top: 45px;
     text-align: center;
-}
+}      
 
 @media only screen and (max-width: 768px){
 
@@ -415,6 +430,14 @@ section{
     background-color: #2742CA;
     border: none;
     color: #FFFFFF;
+}
+
+.btn-2:hover{
+    background-color: #FFFFFF;
+      border: 1px solid #2742CA;
+      color: #2742CA;
+      font-weight: 500;
+      margin-bottom: -2 px;
 }
 
 .contact-company .content{
