@@ -8,4 +8,5 @@ deployment:
     - /bin/cp project-company.html $DEPLOYPATH
     - /bin/cp gallery.html $DEPLOYPATH
     - /bin/cp blog-company.html $DEPLOYPATH
+    - /bin/cp blog-content.html $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
