@@ -369,7 +369,7 @@ section{
     padding-bottom: 60px;
 }
  .founder-company img{
-    width: 280px;
+    width: 200px;
  }
  .founder-company h3{
      font-weight: 400;
@@ -418,10 +418,14 @@ section{
 }
 
 .maps-location{
-    height: 500px;
-    background-image: url(/assets/img/maps.png);
-    background-size: cover;
+    margin-bottom: 100px;
 }
+ .maps-location img{
+     max-width: 100%;
+ }
+ .maps-location h4{
+     font-weight: normal;
+ }
 
 .btn-2{
     font-size: 16px;
@@ -528,5 +532,16 @@ section{
     .main .carousel-item {
         height: auto;
         width: 100%;
+    }
+}
+
+
+
+/* Content */
+
+@media only screen and (max-width: 768px){
+    .left-side {
+        margin-top: 50px;
+        margin-bottom: 100px;
     }
 }
