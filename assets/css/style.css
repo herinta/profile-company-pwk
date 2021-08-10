@@ -527,6 +527,9 @@ section{
 .gallery-project img{
     width: 100%;
 }
+.gallery-project .pictures{   
+    margin-bottom: 100px;    
+}
 
 @media only screen and (max-width: 768px){
     .main .carousel-item {
