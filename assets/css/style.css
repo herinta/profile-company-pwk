@@ -70,7 +70,6 @@ body .line{
 /* Utilities css */
 .section-card{
     border-radius: 18px;
-    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
     background-color: #FFFFFF;
     transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
     cursor: pointer;
@@ -91,7 +90,7 @@ section{
     height: 46px;
 }
 .nav-costum{
-    color: #2742CA;
+    color: #080133;
     padding: 8px;
 }
 
@@ -117,8 +116,8 @@ section{
     line-height: 54px;
  }
   .section-1 .btn-1{
-      background-color: #2742CA;
-      color: #FFFFFF;
+      background-color: #FBD573;
+      color: #080133;
       border-radius: 32px;
       padding: 14px 30px;
       margin-top: 20px;
@@ -126,15 +125,15 @@ section{
   }
   .section-1 .btn-1:hover{
       background-color: #FFFFFF;
-      border: 1px solid #2742CA;
-      color: #2742CA;
+      border: 1px solid #080133;
+      color: #080133;
       font-weight: 500;
   }
 
   /* Sectinon 2 */
 
 .section-2{
-    background-color: #2742CA;
+    background-color: #080133;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 80px;
@@ -148,10 +147,11 @@ section{
 
 .section-3{
     text-align: center;
+    background: radial-gradient(100% 163.27% at 2.61% 0%, #FFFDF0 0%, 
+    rgba(255, 253, 240, 0.234375) 19.79%, rgba(255, 253, 240, 0) 100%);
 }
  .section-3 .section-card{
      border-radius: 18px;
-     box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
      margin-top: 80px;
      width: 323px;
      height: 330px;
@@ -161,7 +161,7 @@ section{
 
 .section-card:hover{
      transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
  .section-3 h4{
      margin-top: 30px;
@@ -199,7 +199,7 @@ section{
      margin-top: 60px;
  }
  .btn-link{
-     color: #2742CA;
+     color: #080133;
      border: none;
      background: none;
      text-decoration: none;
@@ -212,7 +212,7 @@ section{
 /* Footer */
 
 .footer{
-    background-color: #2742CA;
+    background-color: #080133;
     color: #FFFFFF;
     padding: 50px 0px 50px 0px;
 }
@@ -364,7 +364,7 @@ section{
 
 /* Founder Company */
 .founder-company{
-    background-color: #2742CA;
+    background-color: #080133;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -431,15 +431,15 @@ section{
     font-size: 16px;
     font-weight: 600;
     padding: 14px 32px;
-    background-color: #2742CA;
+    background-color: #080133;
     border: none;
     color: #FFFFFF;
 }
 
 .btn-2:hover{
     background-color: #FFFFFF;
-      border: 1px solid #2742CA;
-      color: #2742CA;
+      border: 1px solid #080133;
+      color: #080133;
       font-weight: 500;
       margin-bottom: -2 px;
 }
@@ -473,7 +473,7 @@ section{
     height: 30%;
     opacity: 0;
     transition: .5s ease;
-    background: linear-gradient(350.7deg, rgba(39, 66, 202, 0.82) 54.03%, rgba(40, 40, 40, 0) 98.05%);
+    background: linear-gradient(350.7deg, rgba(8, 1, 51, 0.82) 54.03%, rgba(40, 40, 40, 0) 98.05%);
   }
   
   .portofolio-company .content:hover .overlay {
