@@ -1,9 +1,9 @@
-(function (global, factory) {
+  (function (global, factory) {
   if (typeof define === "function" && define.amd) {
     define(['module', 'exports'], factory);
   } else if (typeof exports !== "undefined") {
     factory(module, exports);
-  } else {
+  } else {   
     var mod = {
       exports: {}
     };
@@ -23,6 +23,7 @@
     if (!(instance instanceof Constructor)) {
       throw new TypeError("Cannot call a class as a function");
     }
+    
   }
 
   var _createClass = function () {
@@ -91,6 +92,7 @@
       elem[event]();
     } else if ('on' + event in (elem != null)) {
       elem['on' + event]();
+      
     }
   }
 
